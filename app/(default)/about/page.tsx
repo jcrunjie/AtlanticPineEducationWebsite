@@ -5,12 +5,14 @@ export const metadata = {
 
 import Mission from "@/components/mission";
 import Values from "@/components/values";
+import Intro from "@/components/company-intro";
 
 export default function About() {
   return (
     <>
       <Mission />
       <Values />
+      <Intro />
     </>
   );
 }

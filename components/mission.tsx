@@ -38,7 +38,7 @@ export default function Mission() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto rounded-corners mb-4"
                   src={LandingImage}
-                  width={540}
+                  width={500}
                   height={405}
                   alt="Features 02"
                 />

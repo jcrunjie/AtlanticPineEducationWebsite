@@ -51,9 +51,13 @@ height: auto;
 .row-item {
     flex: 1;
     text-align: center;
-    border: 1px solid #ccc; /* Optional: Add border for better visualization */
     padding: 20px;
     box-sizing: border-box;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
 }
 @media only screen and (min-width: 1024px) {
     .container {
