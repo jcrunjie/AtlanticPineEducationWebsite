@@ -31,7 +31,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
                   src={FeatImage01}
                   width={540}
                   height={405}
@@ -97,7 +97,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
                   src={FeatImage02}
                   width={540}
                   height={405}
@@ -163,7 +163,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
                   src={FeatImage03}
                   width={540}
                   height={405}
@@ -229,7 +229,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
                   src={FeatImage02}
                   width={540}
                   height={405}
@@ -295,7 +295,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
                   src={FeatImage03}
                   width={540}
                   height={405}
@@ -361,7 +361,7 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
                   src={FeatImage02}
                   width={540}
                   height={405}

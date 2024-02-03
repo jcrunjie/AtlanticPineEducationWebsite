@@ -63,7 +63,7 @@ export default function Hero() {
           </div>
 
           <Image
-            className="max-w-full mx-auto md:max-w-none h-auto"
+            className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
             src={LandingImage}
             width="1024"
             height="576"

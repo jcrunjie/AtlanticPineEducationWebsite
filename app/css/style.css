@@ -20,3 +20,23 @@
 [x-cloak=""] {
     display: none;
 }
+
+.rounded-corners {
+    border-radius: 25px;
+  }
+
+.container {
+display: flex;
+width: 100%;
+}
+
+.column {
+flex: 1;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.image {
+max-width: 100%;
+height: auto;
+}
