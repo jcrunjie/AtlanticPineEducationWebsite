@@ -14,7 +14,7 @@ export default function Mission() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 bg-purple-600 rounded-corners mb-4"
                 data-aos="fade-right"
               >
-                <div className="md:pr-4 lg:pr-12 xl:pr-16 xl:pl-16 pt-5 md:order-1">
+                <div className="md:pr-4 pt-5 md:order-1">
                   <h3 className="h3 px-8">Mission</h3>
                   <p className="text-xl text-purple-200 mb-4 py-3 px-8">
                     Atlantic Pine Education Company is committed to becoming a
@@ -61,7 +61,7 @@ export default function Mission() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 bg-purple-700 rounded-corners"
                 data-aos="fade-right"
               >
-                <div className="md:pr-4 lg:pr-12 xl:pr-16 xl:pl-16 pt-5 md:order-1">
+                <div className="md:pr-4 pt-5 md:order-1">
                   <h3 className="h3 text-white px-8">Vision</h3>
                   <p className="text-xl text-purple-200 mb-4 py-3 px-8">
                     Our vision is to break down cultural barriers and build a

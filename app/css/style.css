@@ -25,10 +25,6 @@
     border-radius: 25px;
   }
 
-/* .container {
-display: flex;
-width: 100%;
-} */
 .container {
     display: block;
     width: 100%;
@@ -41,14 +37,32 @@ padding-right: 1rem;
 box-sizing: border-box;
 }
 
-
 .image {
 max-width: 100%;
 height: auto;
 }
 
-@media only screen and (min-width: 1024px) {
+.container-row {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.row-item {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ccc; /* Optional: Add border for better visualization */
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
     .container {
       display: flex;
+    }
+    .container-row {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
     }
   }

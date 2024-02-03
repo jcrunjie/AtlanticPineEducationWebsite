@@ -8,6 +8,13 @@ export default function Values() {
             <h1 className="h2 mb-4">Our Values</h1>
           </div>
         </div>
+        <div className="container-row">
+          <div className="row-item">Item 1</div>
+          <div className="row-item">Item 2</div>
+          <div className="row-item">Item 3</div>
+          <div className="row-item">Item 4</div>
+          <div className="row-item">Item 5</div>
+        </div>
       </div>
     </section>
   );
