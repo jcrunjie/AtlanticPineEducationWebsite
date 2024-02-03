@@ -11,8 +11,8 @@ export default function Intro() {
             className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 bg-purple-600 rounded-corners mb-4"
             data-aos="fade-right"
           >
-            <div className="md:pr-4 pt-5 md:order-1">
-              <p className="text-xl text-purple-200 mb-4 py-3 px-8">
+            <div className="py-3 md:order-1">
+              <p className="text-xl text-purple-200 py-3 px-8">
                 Atlantic Pine Education Company is a pioneer in promoting
                 Sino-American education and cultural exchange, providing
                 comprehensive international education services and experiences
