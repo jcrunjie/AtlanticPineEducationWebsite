@@ -1,85 +1,210 @@
-import Image from "next/image";
-import LandingImage from "@/public/images/landingPagePlaceHolder.svg";
-
-export default function Mission() {
+export default function Service() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-gray-800">
-          {/* Items */}
-          <div className="grid gap-20"></div>
-          <div className="container">
-            <div className="column">
-              <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 bg-purple-600 rounded-corners"
-                data-aos="fade-right"
-              >
-                <div className="md:pr-4 lg:pr-12 xl:pr-16 xl:pl-16 pt-5 md:order-1">
-                  <h3 className="h3">Mission</h3>
-                  <p className="text-xl text-purple-200 mb-4 py-3">
-                    Atlantic Pine Education Company is committed to becoming a
-                    bridge and promoter of Sino-American cultural exchange. Our
-                    mission is to help Chinese students achieve comprehensive
-                    development in their studies and lives in the United States
-                    through carefully designed educational programs while
-                    deepening their understanding of American culture and
-                    values. We are also committed to providing unique
-                    opportunities for American students to gain in-depth
-                    knowledge of China's rich history, culture, and modern
-                    society, promoting mutual understanding and respect between
-                    the youth of the two countries.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
-                data-aos="fade-up"
-              >
-                <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
-                  src={LandingImage}
-                  width={540}
-                  height={405}
-                  alt="Features 02"
-                />
-              </div>
-              {/* <Image className="image" src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg" alt="Image 1"> */}
-            </div>
+      <div className="py-20 border-gray-800">
+        <div
+          className="md:max-w-none md:w-full mx-auto gradient-block1"
+          data-aos="fade-right"
+        >
+          <div className="py-3">
+            <h1 className="h2 text-white">
+              Achieving Educational Dreams, Embarking on the American K12
+              Learning Journey
+            </h1>
+            <p className="text-lg text-white py-3 px-8">
+              At Atlantic Pine Education Company, we do more than just help
+              Chinese students enter top US K12 schools; we are dedicated to
+              nurturing them into future leaders with global perspectives and
+              cultural sensitivity throughout this process. Our professional
+              team, leveraging extensive industry experience and in-depth
+              educational research, tailors optimal educational plans for each
+              student, ensuring they find their best fit within the American
+              education system and maximize their personal potential.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="py-12 border-gray-800">
+            {/* Section header */}
 
-            <div className="column">
-              <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
-                data-aos="fade-up"
-              >
-                <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto rounded-corners mb-4"
-                  src={LandingImage}
-                  width={540}
-                  height={405}
-                  alt="Features 02"
-                />
-              </div>
-              <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 bg-purple-700 rounded-corners"
-                data-aos="fade-right"
-              >
-                <div className="md:pr-4 lg:pr-12 xl:pr-16 xl:pl-16 pt-5 md:order-1">
-                  <h3 className="h3 text-white">Vision</h3>
-                  <p className="text-xl text-purple-200 mb-4 py-3">
-                    Our vision is to break down cultural barriers and build a
-                    more harmonious, respectful, and understanding relationship
-                    between China and the United States through educational
-                    exchange. As a pioneer in the field of education, we are
-                    committed to cultivating the next generation of leaders with
-                    a global vision, cross-cultural communication skills, and
-                    innovative spirit. We believe that through these efforts, we
-                    can make an important contribution to the long-term friendly
-                    cooperation and common prosperity between China and the
-                    United States.
-                  </p>
-                </div>
-              </div>
+            <div className="max-w-3xl mx-auto text-center my-6">
+              <h1 className="h3">Our Professional Services and Features</h1>
             </div>
+            <ul className="service">
+              <li className="card text-white bg-purple-10">
+                <div className="icon text-white bg-white">
+                  <i className="fa-solid fa-house"></i>
+                </div>
+                <div className="title">Personalized School Matching</div>
+                <ul className="text-sm text-white">
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Detailed analysis of students' academic performance,
+                      interests, personality traits, and family background.
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Provides school matching recommendations based on data and
+                      experience, including public, private, and boarding
+                      schools.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <li className="card text-white bg-purple-20">
+                <div className="icon">
+                  <i className="fa-solid fa-gear"></i>
+                </div>
+                <div className="title">Comprehensive Application Support</div>
+                <ul className="text-sm text-white">
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Assistance with preparing application materials, including
+                      transcripts, letters of recommendation, and personal
+                      statements.
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Professional essay editing and interview coaching.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <li className="card text-white bg-purple-600">
+                <div className="icon">
+                  <i className="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div className="title">Integrated Adaptation Guidance</div>
+                <ul className="text-sm text-white">
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Personalized adaptation strategies based on students'
+                      language abilities and cultural backgrounds.
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Organization of cultural exchange activities to help
+                      students better integrate into American school life.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <li className="card text-white bg-purple-40">
+                <div className="icon">
+                  <i className="fa-solid fa-chart-column"></i>
+                </div>
+                <div className="title">Lorem ipsum</div>
+                <ul className="text-sm text-white">
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Detailed analysis of students' academic performance,
+                      interests, personality traits, and family background.
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Provides school matching recommendations based on data and
+                      experience, including public, private, and boarding
+                      schools.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+              <li className="card text-white bg-purple-50">
+                <div className="icon">
+                  <i className="fa-solid fa-circle-star"></i>
+                </div>
+                <div className="title">Lorem ipsum</div>
+                <ul className="text-sm text-white">
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Detailed analysis of students' academic performance,
+                      interests, personality traits, and family background.
+                    </span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <svg
+                      className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>
+                      Provides school matching recommendations based on data and
+                      experience, including public, private, and boarding
+                      schools.
+                    </span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
