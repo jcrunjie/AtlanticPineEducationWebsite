@@ -31,7 +31,7 @@ export default function Service() {
               <h1 className="h3">Our Professional Services and Features</h1>
             </div>
             <ul className="service">
-              <li className="card text-white bg-purple-20">
+              <li className="card text-white bg-purple-60">
                 <div className="icon">
                   <i className="fa-solid fa-gear"></i>
                 </div>
@@ -68,7 +68,7 @@ export default function Service() {
                   </ul>
                 </div>
               </li>
-              <li className="card text-white bg-purple-600">
+              <li className="card text-white bg-purple-70">
                 <div className="icon">
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
@@ -104,7 +104,7 @@ export default function Service() {
                   </ul>
                 </div>
               </li>
-              <li className="card text-white bg-purple-40">
+              <li className="card text-white bg-purple-80">
                 <div className="icon">
                   <i className="fa-solid fa-chart-column"></i>
                 </div>
@@ -140,7 +140,7 @@ export default function Service() {
                   </ul>
                 </div>
               </li>
-              <li className="card text-white bg-purple-50">
+              <li className="card text-white bg-purple-700">
                 <div className="icon">
                   <i className="fa-solid fa-circle-star"></i>
                 </div>
