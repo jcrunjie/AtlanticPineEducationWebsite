@@ -9,7 +9,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
+            <Link href="/" className="block" aria-label="Atlantic-Pine">
               <svg
                 className="w-8 h-8 fill-current text-purple-600"
                 viewBox="0 0 32 32"
