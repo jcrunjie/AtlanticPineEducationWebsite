@@ -44,7 +44,7 @@ export default function Header() {
                 <Link
                   href="/contact-us"
                   // href="/signup"
-                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-3xl"
                 >
                   Contact Us
                 </Link>

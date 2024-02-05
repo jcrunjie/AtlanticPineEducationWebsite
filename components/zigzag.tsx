@@ -7,8 +7,6 @@ import exchange2 from "@/public/images/exchange2.png";
 import leader from "@/public/images/leader.png";
 import summer from "@/public/images/summer.png";
 import collegeApp from "@/public/images/college-app.png";
-import FeatImage02 from "@/public/images/features-03-image-02.png";
-import FeatImage03 from "@/public/images/features-03-image-03.png";
 
 export default function Zigzag() {
   return (

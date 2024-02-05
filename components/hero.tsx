@@ -1,10 +1,46 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
-import ModalVideo from "@/components/modal-video";
-// TODO: replace with gallary
-import LandingImage from "@/public/images/landingPagePlaceHolder.svg";
-import Image from "next/image";
+"use client";
+import { useState, useEffect } from "react";
+
+import fun from "@/public/images/fun.png";
+import grad1 from "@/public/images/grad1.png";
+import grad2 from "@/public/images/grad2.png";
+import happiness from "@/public/images/happiness.png";
+import hiking from "@/public/images/hiking.png";
+import international from "@/public/images/international.png";
+import ocean from "@/public/images/ocean.png";
+import sun from "@/public/images/sun.png";
 
 export default function Hero() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const slides = [
+    ocean,
+    international,
+    grad2,
+    happiness,
+    hiking,
+    fun,
+    sun,
+    grad1,
+  ];
+
+  useEffect(() => {
+    const autoplay = setInterval(() => {
+      nextSlide();
+    }, 3000);
+
+    return () => clearInterval(autoplay);
+  }, [currentIndex]);
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex: number) =>
+      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+    );
+  };
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex: number) =>
+      prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -61,22 +97,24 @@ export default function Hero() {
               between China and the United States.
             </p>
           </div>
-
-          <Image
-            className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
-            src={LandingImage}
-            alt="Landing Page Image"
-          />
-
-          {/* <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          /> */}
+          <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
+            <div
+              style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
+              className="w-full h-full rounded-3xl bg-center bg-cover duration-500"
+            ></div>
+            <div
+              className="absolute top-[50%] left-[5%] translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 cursor-pointer text-purple-600 hover:text-purple-200"
+              onClick={prevSlide}
+            >
+              〈
+            </div>
+            <div
+              className="absolute top-[50%] right-[5%] translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 cursor-pointer text-purple-600 hover:text-purple-200"
+              onClick={nextSlide}
+            >
+              〉
+            </div>
+          </div>
         </div>
       </div>
     </section>
