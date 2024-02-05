@@ -13,9 +13,8 @@ export default function Testimonials() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Don't take our word for it</h2>
             <p className="text-xl text-gray-400">
-              Vitae aliquet nec ullamcorper sit amet risus nullam eget felis
-              semper quis lectus nulla at volutpat diam ut venenatis tellus—in
-              ornare.
+              Discover what our clients have to say about our services through
+              the testimonials below.
             </p>
           </div>
 
@@ -23,7 +22,7 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* 1st testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800 rounded-corners"
+              className="flex flex-col h-full p-6 bg-gray-200 rounded-corners"
               data-aos="fade-up"
             >
               <div>
@@ -44,26 +43,29 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-350 grow">
-                — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Sed sed risus pretium quam vulputate dignissim suspendisse in
-                est. Fermentum et sollicitudin ac orci phasellus egestas.
+              <blockquote className="text-lg text-purple-200 grow">
+                — Atlantic Pine Education Company's comprehensive college
+                application guidance services turned my dreams into reality.
+                From personalized consultations and meticulous application
+                preparation to strategic planning and professional advice on
+                admissions and scholarships, their expert team guided me every
+                step of the way, ensuring I secured admission to my dream
+                university.
               </blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+              <div className="text-purple-600 font-medium mt-6 pt-5 border-t border-purple-600">
                 <cite className="text-gray-900 not-italic">Helen Chen</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  Parent
+                  Student
                 </a>
               </div>
             </div>
 
             {/* 2nd testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800 rounded-corners"
+              className="flex flex-col h-full p-6 bg-gray-200 rounded-corners"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -85,13 +87,14 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-350 grow">
-                — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Sed sed risus pretium quam vulputate dignissim suspendisse in
-                est. Fermentum et sollicitudin ac orci phasellus egestas
+              <blockquote className="text-lg text-purple-200 grow">
+                — Thanks to Atlantic Pine Education Company, their personalized
+                approach and professional support made my daughter's transition
+                into the American K12 learning system seamless. Their ongoing
+                guidance and unwavering commitment ensured my daughter's
+                educational journey was not only successful but truly enriching.
               </blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+              <div className="text-purple-600 font-medium mt-6 pt-5 border-t border-purple-600">
                 <cite className="text-gray-900 not-italic">Ava Guan</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
@@ -104,7 +107,7 @@ export default function Testimonials() {
 
             {/* 3rd testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800 rounded-corners"
+              className="flex flex-col h-full p-6 bg-gray-200 rounded-corners"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -126,19 +129,21 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-350 grow">
-                — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Sed sed risus pretium quam vulputate dignissim suspendisse in
-                est. Fermentum et sollicitudin ac orci phasellus egestas
+              <blockquote className="text-lg text-purple-200 grow">
+                — Atlantic Pine Education Company exceeded my expectations with
+                their commitment to an amazing China-US exchange student
+                experience. Their well-designed program not only fostered
+                cultural exploration but also played a crucial role in my
+                personal growth, providing a safe and supportive environment
+                that truly expanded my global perspective.
               </blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+              <div className="text-purple-600 font-medium mt-6 pt-5 border-t border-purple-600">
                 <cite className="text-gray-900 not-italic">David Lee</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  Parent
+                  Student
                 </a>
               </div>
             </div>

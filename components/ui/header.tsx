@@ -11,7 +11,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="block" aria-label="Atlantic-Pine">
               <svg
-                className="w-8 h-8 fill-current text-purple-600"
+                className="w-8 h-8 fill-current text-purple-600 hover:text-gray-200"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -42,7 +42,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/#"
+                  href="/contact-us"
                   // href="/signup"
                   className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
                 >

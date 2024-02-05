@@ -57,16 +57,14 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We are dedicated to serving as a conduit for cultural exchange
+              between China and the United States.
             </p>
           </div>
 
           <Image
             className="max-w-full mx-auto md:max-w-none h-auto rounded-corners"
             src={LandingImage}
-            width="1024"
-            height="576"
             alt="Landing Page Image"
           />
 

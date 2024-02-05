@@ -66,6 +66,15 @@ height: auto;
     padding-top: 5rem;
 }
 
+.bullet-mt {
+    margin-top: 0.20rem;
+  }
+
+.bullet-mt1 {
+margin-top: 0.3rem;
+}
+
+
 .gradient-block1 {
     padding: 2rem;
     text-align: center;
@@ -112,6 +121,12 @@ height: auto;
     background: linear-gradient(to right, #6bf1bc, #005f62); /* Adjust your gradient colors here */
   }
 
+  .gradient-block7 {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(to right, #8B97C3, #404F7B); /* Adjust your gradient colors here */
+  }
+
  .full-width {
     position: absolute;
     left:0px;
@@ -137,7 +152,7 @@ height: auto;
     background-image: linear-gradient(to right, rgb(0 0 0 / .15), transparent);
     transform-style: preserve-3d;    
     display: grid;
-    grid-template: 'icon' 'title' 'content';
+    grid-template: 'title' 'content';
     row-gap: 0.5rem;
     column-gap: 2rem;
   }

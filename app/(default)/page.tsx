@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Home - Atlantic Pine Education",
-  description: "Page description",
+  description:
+    "We are dedicated to serving as a conduit for cultural exchange between China and the United States.",
 };
 
 import Hero from "@/components/hero";
