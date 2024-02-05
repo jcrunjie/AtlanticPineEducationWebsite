@@ -127,6 +127,9 @@ margin-top: 0.3rem;
     background: linear-gradient(to right, #8B97C3, #404F7B); /* Adjust your gradient colors here */
   }
 
+ .about {
+  max-width: 500px;
+ }
  .full-width {
     position: absolute;
     left:0px;

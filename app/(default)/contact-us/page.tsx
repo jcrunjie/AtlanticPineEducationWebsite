@@ -1,3 +1,5 @@
+import map from "@/public/images/map.png";
+
 export const metadata = {
   title: "Contact Us - Atlantic Pine Education",
   description: "Email, phone number, and company location",
@@ -17,7 +19,7 @@ export default function ContactUs() {
               </h1>
             </div>
             <div
-              className="max-w-sm flex justify-center items-center mx-auto gradient-block7 rounded-corners mt-6"
+              className="max-w-[720px] flex justify-center items-center mx-auto gradient-block7 rounded-corners mt-6"
               data-aos="fade-left"
             >
               <div className="md:order-1 text-left">
@@ -100,12 +102,34 @@ export default function ContactUs() {
                         </g>
                       </svg>
                     </a>
-                    <a href="https://www.google.com/maps/dir//19800+Belmont+Chase+Dr+%23100,+Ashburn,+VA+20147/@39.0684725,-77.5263864,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b63c1a7a153dd1:0x89ed5e28e354675d!2m2!1d-77.4851869!2d39.0684797?entry=ttu">
-                      19800 Belmont Chase Dr #100, Ashburn, VA 20147
+                    <a href="https://www.google.com/maps/dir//210+Parkside+Dr,+Winchester,+VA+22602/@39.1795103,-78.1319483,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b5ef9124aa0daf:0xa05ad5dd2827de99!2m2!1d-78.1268482!2d39.1809576?entry=ttu">
+                      210 Parkside Dr. Winchester, VA 22602, United States
                     </a>
                   </li>
                 </ul>
               </div>
+            </div>
+            <div className="max-w-[720px] h-[720px] w-full m-auto py-10 relative group">
+              <a href="https://www.google.com/maps/dir//210+Parkside+Dr,+Winchester,+VA+22602/@39.1795103,-78.1319483,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b5ef9124aa0daf:0xa05ad5dd2827de99!2m2!1d-78.1268482!2d39.1809576?entry=ttu">
+                <div
+                  // style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
+                  style={{ backgroundImage: `url(${map.src})` }}
+                  className="w-full h-full rounded-3xl bg-center bg-cover"
+                  data-aos="fade-up"
+                ></div>
+              </a>
+              {/* <div
+              className="absolute top-[50%] left-[5%] translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 cursor-pointer text-purple-600 hover:text-purple-200"
+              onClick={prevSlide}
+            >
+              〈
+            </div>
+            <div
+              className="absolute top-[50%] right-[5%] translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 cursor-pointer text-purple-600 hover:text-purple-200"
+              onClick={nextSlide}
+            >
+              〉
+            </div> */}
             </div>
           </div>
         </div>
