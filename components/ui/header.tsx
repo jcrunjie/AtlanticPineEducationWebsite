@@ -1,10 +1,60 @@
+"use client";
 import Link from "next/link";
 import MobileMenu from "./mobile-menu";
+import { useState } from "react";
 
 export default function Header() {
+  const [language, setLanguage] = useState(0);
+  const languages = [
+    {
+      about: {
+        heading: "About",
+        href: "/about",
+      },
+      services: {
+        heading: "Services",
+        href: "/#services",
+      },
+      contact: {
+        heading: "Contact Us",
+        href: "/contact-us",
+      },
+      language: {
+        heading: "中文",
+        href: "/home-cn",
+        lang: "cn",
+      },
+      lang: "en",
+    },
+    {
+      about: {
+        heading: "关于我们",
+        href: "/about-cn",
+        lang: "cn",
+      },
+      services: {
+        heading: "服务",
+        href: "/#services", // TODO: change these links to chinese
+      },
+      contact: {
+        heading: "联系我们",
+        href: "/contact-us",
+      },
+      language: {
+        heading: "English",
+        href: "/",
+        lang: "en",
+      },
+      lang: "cn",
+    },
+  ];
+
   return (
     <header className="absolute w-full z-30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div
+        className="max-w-6xl mx-auto px-4 sm:px-6"
+        lang={languages[language].lang}
+      >
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
@@ -26,27 +76,38 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/about"
+                  href={languages[language].about.href}
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  About
+                  {languages[language].about.heading}
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/#services"
+                  href={languages[language].services.href}
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Services
+                  {languages[language].services.heading}
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact-us"
-                  // href="/signup"
+                  href={languages[language].contact.href}
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  {languages[language].contact.heading}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={languages[language].language.href}
                   className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-3xl"
+                  lang={languages[language].lang}
+                  onClick={() => {
+                    setLanguage(language === 0 ? 1 : 0);
+                  }}
                 >
-                  Contact Us
+                  {languages[language].language.heading}
                 </Link>
               </li>
             </ul>

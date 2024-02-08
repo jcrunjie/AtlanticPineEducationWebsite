@@ -10,11 +10,18 @@ import Newsletter from "@/components/newsletter";
 import Zigzag from "@/components/zigzag";
 import Testimonials from "@/components/testimonials";
 
+import data from "@/data/en.json";
+
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Zigzag />
+      <Hero title={data.home.title} description={data.home.description} />
+      <Zigzag
+        title={data.services.title}
+        message={data.services.message}
+        linkMessage={data.services.linkMessage}
+        services={data.services.services}
+      />
       <Testimonials />
       {/* <Features /> */}
       <Newsletter />

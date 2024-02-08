@@ -10,7 +10,12 @@ import { useState, useEffect } from "react";
 import ocean from "@/public/images/ocean.png";
 // import sun from "@/public/images/sun.png";
 
-export default function Hero() {
+interface props {
+  title: string;
+  description: string;
+}
+
+export default function Hero({ title, description }: props) {
   // const [currentIndex, setCurrentIndex] = useState(0);
   // const slides = [
   //   ocean,
@@ -86,15 +91,14 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Atlantic Pine Education
+              {title}
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              We are dedicated to serving as a conduit for cultural exchange
-              between China and the United States.
+              {description}
             </p>
           </div>
           <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">

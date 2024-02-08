@@ -1,0 +1,79 @@
+{
+    "home": {
+        "title": "Atlantic Pine Education",
+        "description": "We are dedicated to serving as a conduit for cultural exchange between China and the United States."
+    },
+    "services": {
+        "message": "Reach goals that matter",
+        "linkMessage": "LEARN MORE →",
+        "title": "One company, six services",
+        "services": [
+            {
+                "title": "US K12 Schools",
+                "description": "We offer personalized services for Chinese students aiming to enter US K12 schools",
+                "features": [
+                    "Personalized School Matching",
+                    "Comprehensive Application Support",
+                    "Integrated Adaptation Guidance",
+                    "Ongoing Follow-up and Feedback"
+                ],
+                "link": "/us-k12-schools"
+            },
+            {
+                "title": "China-US Exchange Students",
+                "description": "We facilitate a transformative China-US exchange student program, fostering cultural exploration and personal growth for future leaders in a safe and supportive environment.",
+                "features": [
+                    "Customized Cultural Experiences",
+                    "In-depth Educational Experiences",
+                    "Comprehensive Support System",
+                    "Safety and Health Management"
+                ],
+                "link": "/china-us-exchange"
+            },
+            {
+                "title": "Entrepreneurial Successor Development Program",
+                "description": "We cultivate future business leaders by providing comprehensive training and development to equip them with the necessary knowledge, skills, and a global perspective.",
+                "features": [
+                    "Comprehensive Curriculum",
+                    "Practical Exercises and Project Implementation",
+                    "International Perspective Expansion",
+                    "Personalized Coaching and Guidance"
+                ],
+                "link": "/esdp"
+            },
+            {
+                "title": "Summer Camp",
+                "description": "We offer a meticulously planned summer camp program, providing students with academic and cultural immersion in top U.S. high schools and universities to unlock their potential and expand their international perspective.",
+                "features": [
+                    "Immersive experience in top U.S. schools",
+                    "Comprehensively enhance students' capabilities through diverse activities",
+                    "Integrated Adaptation Guidance",
+                    "Ongoing Follow-up and Feedback"
+                ],
+                "link": "/summer-camp"
+            },
+            {
+                "title": "College Application",
+                "description": "We offer end-to-end expert guidance, covering college selection, application preparation, and post-application support, ensuring students secure admission to their dream universities and helping them prepare for their next chapter in life.",
+                "features": [
+                    "Personalized Consultation",
+                    "Comprehensive Application Preparation",
+                    "Application Strategy Planning",
+                    "Admission and Scholarship Consulting"
+                ],
+                "link": "/college-app"
+            },
+            {
+                "title": "Mini Exchange Program",
+                "description": "We provide students with a short-term yet in-depth international learning experience, including study abroad, cultural exchanges, and language skill enhancement.",
+                "features": [
+                    "Cultural Experience",
+                    "Educational Experience",
+                    "Accommodation Arrangements",
+                    "Full Support"
+                ],
+                "link": "/mini-exchange"
+            }
+        ]
+    }
+}

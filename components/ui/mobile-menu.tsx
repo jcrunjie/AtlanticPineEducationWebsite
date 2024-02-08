@@ -56,7 +56,7 @@ export default function MobileMenu() {
           <rect y="18" width="24" height="2" rx="1" />
         </svg>
       </button>
-
+      {/* TODO: make langauge compatibility for mobile as well */}
       {/*Mobile navigation */}
       <nav
         id="mobile-nav"
