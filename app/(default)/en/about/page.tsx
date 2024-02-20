@@ -6,12 +6,12 @@ export const metadata = {
 import Mission from "@/components/mission";
 import Values from "@/components/values";
 import Intro from "@/components/company-intro";
+import data from "@/data/en.json";
 
 export default function About() {
   return (
     <>
-      <div> CHINESE </div>
-      <Mission />
+      <Mission mission={data.about.mission} vision={data.about.vision} />
       <Values />
       <Intro />
     </>

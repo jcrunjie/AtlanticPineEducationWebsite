@@ -1,4 +1,16 @@
-export default function Newsletter() {
+interface props {
+  title: string;
+  description: string;
+  subscribeButton: string;
+  placeHolder: string;
+}
+
+export default function Newsletter({
+  title,
+  description,
+  subscribeButton,
+  placeHolder,
+}: props) {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -43,10 +55,8 @@ export default function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
-              <p className="text-purple-200 text-lg">
-                Join our newsletter to get top news before anyone else.
-              </p>
+              <h3 className="h3 text-white mb-2">{title}</h3>
+              <p className="text-purple-200 text-lg">{description}</p>
             </div>
 
             {/* CTA form */}
@@ -55,14 +65,14 @@ export default function Newsletter() {
                 <input
                   type="email"
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
-                  placeholder="Your best email…"
-                  aria-label="Your best email…"
+                  placeholder={placeHolder}
+                  aria-label={placeHolder}
                 />
                 <a
                   className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
                   href="#0"
                 >
-                  Subscribe
+                  {subscribeButton}
                 </a>
               </div>
               {/* Success message */}

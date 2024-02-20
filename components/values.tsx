@@ -1,11 +1,21 @@
-export default function Values() {
+interface value {
+  title: string;
+  description: string;
+}
+
+interface props {
+  valuesHeading: string;
+  values: value[];
+}
+
+export default function Values({ valuesHeading, values }: props) {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-12">
         <div className="md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h2">Our Values</h1>
+            <h1 className="h2">{valuesHeading}</h1>
           </div>
         </div>
         <div className="container-row">
@@ -53,13 +63,9 @@ export default function Values() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Cultural Exchange</h4>
+              <h4 className="h4 mb-2">{values[0].title}</h4>
               <p className="text-sm text-gray-400 text-center">
-                We firmly believe that communication and exchange between
-                different cultures are the key to enriching students'
-                perspectives. We encourage students to establish a global way of
-                thinking through the integration and exchange of diverse
-                cultures.
+                {values[0].description}
               </p>
             </div>
           </div>
@@ -100,12 +106,9 @@ export default function Values() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Education Innovation</h4>
+              <h4 className="h4 mb-2">{values[1].title}</h4>
               <p className="text-sm text-gray-400 text-center">
-                We adopt innovative educational models, combined with the latest
-                educational technologies, to provide efficient and interactive
-                learning experiences aimed at cultivating students' critical
-                thinking and problem-solving abilities.
+                {values[1].description}
               </p>
             </div>
           </div>
@@ -142,13 +145,9 @@ export default function Values() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2">Social Responsibility</h4>
+              <h4 className="h4 mb-2">{values[2].title}</h4>
               <p className="text-sm text-gray-400 text-center">
-                We are deeply aware of our responsibility in promoting
-                Sino-American relations and are committed to using education to
-                enhance the social responsibility of young people in both
-                countries, making a contribution to building a more just and
-                inclusive world.
+                {values[2].description}
               </p>
             </div>
           </div>
@@ -186,12 +185,9 @@ export default function Values() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Collaboration and Win-Win</h4>
+              <h4 className="h4 mb-2">{values[3].title}</h4>
               <p className="text-sm text-gray-400 text-center">
-                We value cooperation with institutions such as the Chinese
-                Consulate General in the United States and promote the exchange
-                and development of Sino-American education and culture through
-                sharing resources, experience, and knowledge.
+                {values[3].description}
               </p>
             </div>
           </div>
@@ -236,12 +232,9 @@ export default function Values() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Integrity and Transparency</h4>
+              <h4 className="h4 mb-2">{values[4].title}</h4>
               <p className="text-sm text-gray-400 text-center">
-                We adhere to the principles of integrity and transparency,
-                maintaining open communication in all partnerships to ensure
-                that every decision and action is in the interests and
-                expectations of both parties.
+                {values[4].description}
               </p>
             </div>
           </div>
