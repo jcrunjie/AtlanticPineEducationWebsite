@@ -6,13 +6,16 @@ export const metadata = {
 import Mission from "@/components/mission";
 import Values from "@/components/values";
 import Intro from "@/components/company-intro";
-import data from "@/data/cn.json";
+import data from "@/data/en.json"; // TODO: change this to CN
 
 export default function About() {
   return (
     <>
       <Mission mission={data.about.mission} vision={data.about.vision} />
-      <Values />
+      <Values
+        valuesHeading={data.about.valuesHeading}
+        values={data.about.values}
+      />
       <Intro />
     </>
   );

@@ -12,7 +12,10 @@ export default function About() {
   return (
     <>
       <Mission mission={data.about.mission} vision={data.about.vision} />
-      <Values />
+      <Values
+        valuesHeading={data.about.valuesHeading}
+        values={data.about.values}
+      />
       <Intro />
     </>
   );
