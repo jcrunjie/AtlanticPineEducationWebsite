@@ -140,7 +140,12 @@ export default function Header({
             </ul>
           </nav>
 
-          <MobileMenu />
+          <MobileMenu
+            lang={lang}
+            homeHref={homeHref}
+            navigations={navigations}
+            language={language}
+          />
         </div>
       </div>
     </header>

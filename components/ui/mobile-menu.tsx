@@ -3,56 +3,33 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
-export default function MobileMenu() {
+interface navigation {
+  heading: string;
+  href: string;
+}
+
+interface language {
+  heading: string;
+  href: string;
+  lang: string;
+}
+interface props {
+  lang: string;
+  homeHref: string;
+  navigations: navigation[];
+  language: language;
+}
+
+export default function MobileMenu({
+  lang,
+  homeHref,
+  navigations,
+  language,
+}: props) {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
 
   const trigger = useRef<HTMLButtonElement>(null);
   const mobileNav = useRef<HTMLDivElement>(null);
-
-  const [language, setLanguage] = useState(0);
-  const languages = [
-    {
-      about: {
-        heading: "About",
-        href: "/about",
-      },
-      services: {
-        heading: "Services",
-        href: "/#services",
-      },
-      contact: {
-        heading: "Contact Us",
-        href: "/contact-us",
-      },
-      language: {
-        heading: "中文",
-        href: "/home-cn",
-        lang: "cn",
-      },
-      lang: "en",
-    },
-    {
-      about: {
-        heading: "关于我们",
-        href: "/about-cn",
-        lang: "cn",
-      },
-      services: {
-        heading: "服务",
-        href: "/#services", // TODO: change these links to chinese
-      },
-      contact: {
-        heading: "联系我们",
-        href: "/contact-us",
-      },
-      language: {
-        heading: "English",
-        href: "/",
-        lang: "en",
-      },
-      lang: "cn",
-    },
-  ];
 
   // close the mobile menu on click outside
   useEffect(() => {
@@ -114,44 +91,28 @@ export default function MobileMenu() {
         }
       >
         <ul className="bg-gray-200 px-4 py-2">
+          {navigations.map((element, index) => (
+            <li>
+              <Link
+                href={element.href}
+                className="flex font-medium w-full text-purple-600 hover:text-purple-200 py-2 justify-center"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                {element.heading}
+              </Link>
+            </li>
+          ))}
           <li>
             <Link
-              href={languages[language].about.href}
-              className="flex font-medium w-full text-purple-600 hover:text-purple-200 py-2 justify-center"
-              onClick={() => setMobileNavOpen(false)}
-            >
-              {languages[language].about.heading}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={languages[language].services.href}
-              className="flex font-medium w-full text-purple-600 hover:text-purple-200 py-2 justify-center"
-              onClick={() => setMobileNavOpen(false)}
-            >
-              {languages[language].services.heading}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={languages[language].contact.href}
-              className="flex font-medium w-full text-purple-600 hover:text-purple-200 py-2 justify-center"
-              onClick={() => setMobileNavOpen(false)}
-            >
-              {languages[language].contact.heading}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={languages[language].language.href}
-              lang={languages[language].lang}
+              href={language.href}
+              lang={language.lang}
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-purple-200 bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-              onClick={() => {
-                setLanguage(language === 0 ? 1 : 0);
-                setMobileNavOpen(false);
-              }}
+              // onClick={() => {
+              //   setLanguage(language === 0 ? 1 : 0);
+              //   setMobileNavOpen(false);
+              // }}
             >
-              {languages[language].language.heading}
+              {language.heading}
             </Link>
           </li>
         </ul>
