@@ -33,7 +33,7 @@
         "services": [
             {
                 "title": "US K12 Schools",
-                "description": "We offer personalized services for Chinese students aiming to enter US K12 schools",
+                "description": "We offer personalized services for Asian students aiming to enter US K12 schools",
                 "features": [
                     "Personalized School Matching",
                     "Comprehensive Application Support",
@@ -43,8 +43,8 @@
                 "link": "/en/us-k12-schools"
             },
             {
-                "title": "China-US Exchange Students",
-                "description": "We facilitate a transformative China-US exchange student program, fostering cultural exploration and personal growth for future leaders in a safe and supportive environment.",
+                "title": "Asia-US Exchange Students",
+                "description": "We facilitate a transformative Asia-US exchange student program, fostering cultural exploration and personal growth for future leaders in a safe and supportive environment.",
                 "features": [
                     "Customized Cultural Experiences",
                     "In-depth Educational Experiences",
