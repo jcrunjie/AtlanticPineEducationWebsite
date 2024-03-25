@@ -5,10 +5,11 @@ export const metadata = {
 };
 
 import Service from "@/components/service-k12";
+import data from "@/data/en.json";
 export default function K12() {
   return (
     <>
-      <Service />
+      <Service serviceProps={data.k12}/>
     </>
   );
 }

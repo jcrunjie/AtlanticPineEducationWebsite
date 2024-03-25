@@ -16,7 +16,7 @@ export default function About() {
         valuesHeading={data.about.valuesHeading}
         values={data.about.values}
       />
-      <Intro />
+      <Intro title={data.about.intro.title} description={data.about.intro.description}/>
     </>
   );
 }
