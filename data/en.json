@@ -1,190 +1,209 @@
 {
     "header": {
-        "lang": "en",
-        "homeHref": "/en/",
-        "navigations": [
-            {
-                "heading": "About",
-                "href": "/en/about"
-            },
-            {
-                "heading": "Services",
-                "href": "/en/#services"
-            },
-            {
-                "heading": "Contact Us",
-                "href": "/en/contact-us"
-            }
-        ],
-        "language": {
-            "heading": "中文",
-            "href": "/cn/",
-            "lang": "cn"
+      "lang": "en",
+      "homeHref": "/en/",
+      "navigations": [
+        {
+          "heading": "About",
+          "href": "/en/about"
+        },
+        {
+          "heading": "Services",
+          "href": "/en/#services"
+        },
+        {
+          "heading": "Contact Us",
+          "href": "/en/contact-us"
         }
+      ],
+      "language": {
+        "heading": "中文",
+        "href": "/cn/",
+        "lang": "cn"
+      }
     },
     "home": {
-        "title": "Atlantic Pine Education",
-        "description": "We are dedicated to serve as a conduit for cultural exchange between China, Japan, and the United States."
+      "title": "Atlantic Pine Education",
+      "description": "We are dedicated to serve as a conduit for cultural exchange between China, Japan, and the United States."
     },
     "services": {
-        "message": "Reach goals that matter",
-        "linkMessage": "LEARN MORE →",
-        "title": "One company, six services",
-        "services": [
-            {
-                "title": "US K12 Schools",
-                "description": "We offer personalized services for Asian students aiming to enter US K12 schools",
-                "features": [
-                    "Personalized School Matching",
-                    "Comprehensive Application Support",
-                    "Integrated Adaptation Guidance",
-                    "Ongoing Follow-up and Feedback"
-                ],
-                "link": "/en/us-k12-schools"
-            },
-            {
-                "title": "Asia-US Exchange Students",
-                "description": "We facilitate a transformative Asia-US exchange student program, fostering cultural exploration and personal growth for future leaders in a safe and supportive environment.",
-                "features": [
-                    "Customized Cultural Experiences",
-                    "In-depth Educational Experiences",
-                    "Comprehensive Support System",
-                    "Safety and Health Management"
-                ],
-                "link": "/en/china-us-exchange"
-            },
-            {
-                "title": "Entrepreneurial Successor Development Program",
-                "description": "We cultivate future business leaders by providing comprehensive training and development to equip them with the necessary knowledge, skills, and a global perspective.",
-                "features": [
-                    "Comprehensive Curriculum",
-                    "Practical Exercises and Project Implementation",
-                    "International Perspective Expansion",
-                    "Personalized Coaching and Guidance"
-                ],
-                "link": "/en/esdp"
-            },
-            {
-                "title": "Summer Camp",
-                "description": "We offer a meticulously planned summer camp program, providing students with academic and cultural immersion in top U.S. high schools and universities to unlock their potential and expand their international perspective.",
-                "features": [
-                    "Immersive experience in top U.S. schools",
-                    "Comprehensively enhance students' capabilities through diverse activities",
-                    "Integrated Adaptation Guidance",
-                    "Ongoing Follow-up and Feedback"
-                ],
-                "link": "/en/summer-camp"
-            },
-            {
-                "title": "College Application",
-                "description": "We offer end-to-end expert guidance, covering college selection, application preparation, and post-application support, ensuring students secure admission to their dream universities and helping them prepare for their next chapter in life.",
-                "features": [
-                    "Personalized Consultation",
-                    "Comprehensive Application Preparation",
-                    "Application Strategy Planning",
-                    "Admission and Scholarship Consulting"
-                ],
-                "link": "/en/college-app"
-            },
-            {
-                "title": "Mini Exchange Program",
-                "description": "We provide students with a short-term yet in-depth international learning experience, including study abroad, cultural exchanges, and language skill enhancement.",
-                "features": [
-                    "Cultural Experience",
-                    "Educational Experience",
-                    "Accommodation Arrangements",
-                    "Full Support"
-                ],
-                "link": "/en/mini-exchange"
-            }
-        ]
+      "message": "Reach goals that matter",
+      "linkMessage": "LEARN MORE →",
+      "title": "One company, six services",
+      "services": [
+        {
+          "title": "US K12 Schools",
+          "description": "We offer personalized services for Asian students aiming to enter US K12 schools",
+          "features": [
+            "Personalized School Matching",
+            "Comprehensive Application Support",
+            "Integrated Adaptation Guidance",
+            "Ongoing Follow-up and Feedback"
+          ],
+          "link": "/en/us-k12-schools"
+        },
+        {
+          "title": "Asia-US Exchange Students",
+          "description": "We facilitate a transformative Asia-US exchange student program, fostering cultural exploration and personal growth for future leaders in a safe and supportive environment.",
+          "features": [
+            "Customized Cultural Experiences",
+            "In-depth Educational Experiences",
+            "Comprehensive Support System",
+            "Safety and Health Management"
+          ],
+          "link": "/en/china-us-exchange"
+        },
+        {
+          "title": "Entrepreneurial Successor Development Program",
+          "description": "We cultivate future business leaders by providing comprehensive training and development to equip them with the necessary knowledge, skills, and a global perspective.",
+          "features": [
+            "Comprehensive Curriculum",
+            "Practical Exercises and Project Implementation",
+            "International Perspective Expansion",
+            "Personalized Coaching and Guidance"
+          ],
+          "link": "/en/esdp"
+        },
+        {
+          "title": "Summer Camp",
+          "description": "We offer a meticulously planned summer camp program, providing students with academic and cultural immersion in top U.S. high schools and universities to unlock their potential and expand their international perspective.",
+          "features": [
+            "Immersive experience in top U.S. schools",
+            "Comprehensively enhance students' capabilities through diverse activities",
+            "Integrated Adaptation Guidance",
+            "Ongoing Follow-up and Feedback"
+          ],
+          "link": "/en/summer-camp"
+        },
+        {
+          "title": "College Application",
+          "description": "We offer end-to-end expert guidance, covering college selection, application preparation, and post-application support, ensuring students secure admission to their dream universities and helping them prepare for their next chapter in life.",
+          "features": [
+            "Personalized Consultation",
+            "Comprehensive Application Preparation",
+            "Application Strategy Planning",
+            "Admission and Scholarship Consulting"
+          ],
+          "link": "/en/college-app"
+        },
+        {
+          "title": "Mini Exchange Program",
+          "description": "We provide students with a short-term yet in-depth international learning experience, including study abroad, cultural exchanges, and language skill enhancement.",
+          "features": [
+            "Cultural Experience",
+            "Educational Experience",
+            "Accommodation Arrangements",
+            "Full Support"
+          ],
+          "link": "/en/mini-exchange"
+        }
+      ]
     },
     "testimonials": {
-        "title": "Don't take our word for it",
-        "description": "Discover what our clients have to say about our services through the testimonials below.",
-        "testimonies": [
-            {
-                "quote": "— Atlantic Pine Education Company's comprehensive college application guidance services turned my dreams into reality. From personalized consultations and meticulous application preparation to strategic planning and professional advice on admissions and scholarships, their expert team guided me every step of the way, ensuring I secured admission to my dream university.",
-                "name": "Jennifer Wang",
-                "role": "Student"
-            },
-            {
-                "quote": "— Thanks to Atlantic Pine Education Company, their personalized approach and professional support made my daughter's transition into the American K12 learning system seamless. Their ongoing guidance and unwavering commitment ensured my daughter's educational journey was not only successful but truly enriching.",
-                "name": "Andre Zhang",
-                "role": "Parent"
-            },
-            {
-                "quote": "— Atlantic Pine Education Company exceeded my expectations with their commitment to an amazing China-US exchange student experience. Their well-designed program not only fostered cultural exploration but also played a crucial role in my personal growth, providing a safe and supportive environment that truly expanded my global perspective.",
-                "name": "David Lee",
-                "role": "Student"
-            }
-        ]
+      "title": "Don't take our word for it",
+      "description": "Discover what our clients have to say about our services through the testimonials below.",
+      "testimonies": [
+        {
+          "quote": "— Atlantic Pine Education Company's comprehensive college application guidance services turned my dreams into reality. From personalized consultations and meticulous application preparation to strategic planning and professional advice on admissions and scholarships, their expert team guided me every step of the way, ensuring I secured admission to my dream university.",
+          "name": "Jennifer Wang",
+          "role": "Student"
+        },
+        {
+          "quote": "— Thanks to Atlantic Pine Education Company, their personalized approach and professional support made my daughter's transition into the American K12 learning system seamless. Their ongoing guidance and unwavering commitment ensured my daughter's educational journey was not only successful but truly enriching.",
+          "name": "Andre Zhang",
+          "role": "Parent"
+        },
+        {
+          "quote": "— Atlantic Pine Education Company exceeded my expectations with their commitment to an amazing China-US exchange student experience. Their well-designed program not only fostered cultural exploration but also played a crucial role in my personal growth, providing a safe and supportive environment that truly expanded my global perspective.",
+          "name": "David Lee",
+          "role": "Student"
+        }
+      ]
     },
     "newsletter": {
-        "title": "Stay in the loop",
-        "description": "Join our newsletter to get top news before anyone else.",
-        "subscribeButton": "Subscribe",
-        "placeHolder": "Your best email…"
+      "title": "Stay in the loop",
+      "description": "Join our newsletter to get top news before anyone else.",
+      "subscribeButton": "Subscribe",
+      "placeHolder": "Your best email…"
     },
     "about": {
-        "mission": {
-            "title": "Mission",
-            "description": "Atlantic Pine Education Company is committed to becoming a bridge and promoter of Sino-American cultural exchange. Our mission is to help Chinese students achieve comprehensive development in their studies and lives in the United States through carefully designed educational programs while deepening their understanding of American culture and values. We are also committed to providing unique opportunities for American students to gain in-depth knowledge of China's rich history, culture, and modern society, promoting mutual understanding and respect between the youth of the two countries."
+      "mission": {
+        "title": "Mission",
+        "description": "Atlantic Pine Education Company is committed to becoming a bridge and promoter of Sino-American cultural exchange. Our mission is to help Chinese students achieve comprehensive development in their studies and lives in the United States through carefully designed educational programs while deepening their understanding of American culture and values. We are also committed to providing unique opportunities for American students to gain in-depth knowledge of China's rich history, culture, and modern society, promoting mutual understanding and respect between the youth of the two countries."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "Our vision is to break down cultural barriers and build a more harmonious, respectful, and understanding relationship between China and the United States through educational exchange. As a pioneer in the field of education, we are committed to cultivating the next generation of leaders with a global vision, cross-cultural communication skills, and innovative spirit. We believe that through these efforts, we can make an important contribution to the long-term friendly cooperation and common prosperity between China and the United States."
+      },
+      "valuesHeading": "Our Values",
+      "values": [
+        {
+          "title": "Cultural Exchange",
+          "description": "We firmly believe that communication and exchange between different cultures are the key to enriching students' perspectives. We encourage students to establish a global way of thinking through the integration and exchange of diverse cultures."
         },
-        "vision": {
-            "title": "Vision",
-            "description": "Our vision is to break down cultural barriers and build a more harmonious, respectful, and understanding relationship between China and the United States through educational exchange. As a pioneer in the field of education, we are committed to cultivating the next generation of leaders with a global vision, cross-cultural communication skills, and innovative spirit. We believe that through these efforts, we can make an important contribution to the long-term friendly cooperation and common prosperity between China and the United States."
+        {
+          "title": "Education Innovation",
+          "description": "We adopt innovative educational models, combined with the latest educational technologies, to provide efficient and interactive learning experiences aimed at cultivating students' critical thinking and problem-solving abilities."
         },
-        "valuesHeading": "Our Values",
-        "values": [
-            {
-                "title": "Cultural Exchange",
-                "description": "We firmly believe that communication and exchange between different cultures are the key to enriching students' perspectives. We encourage students to establish a global way of thinking through the integration and exchange of diverse cultures."
-            },
-            {
-                "title": "Education Innovation",
-                "description": "We adopt innovative educational models, combined with the latest educational technologies, to provide efficient and interactive learning experiences aimed at cultivating students' critical thinking and problem-solving abilities."
-            },
-            {
-                "title": "Social Responsibility",
-                "description": "We are deeply aware of our responsibility in promoting Sino-American relations and are committed to using education to enhance the social responsibility of young people in both countries, making a contribution to building a more just and inclusive world."
-            },
-            {
-                "title": "Collaboration and Win-Win",
-                "description": "We value cooperation with institutions such as the Chinese Consulate General in the United States and promote the exchange and development of Sino-American education and culture through sharing resources, experience, and knowledge."
-            },
-            {
-                "title": "Integrity and Transparency",
-                "description": "We adhere to the principles of integrity and transparency, maintaining open communication in all partnerships to ensure that every decision and action is in the interests and expectations of both parties."
-            }
-        ],
-        "intro": {
-            "title": "Company Introduction & History",
-            "description": "Atlantic Pine Education Company is a pioneer in promoting Sino-American education and cultural exchange, providing comprehensive international education services and experiences for Chinese students. We are a bridge connecting Eastern and Western educational concepts and resources, a cooperation platform for Sino-American educational institutions to explore and share education innovation, and a shortcut for Chinese and American students to pursue academic achievements and personal growth. We are also a channel for promoting Sino-American talent exchange and intellectual complementarity. The company was founded in the United States and is located at the forefront of education and cultural exchange. Atlantic Pine Education Company is an institution with a profound influence in the field of Sino-American education. Our headquarters are located in the United States, and we have branch offices in major Chinese cities such as Beijing, Shanghai, and Guangzhou, as well as offices in important educational centers in the United States such as New York and Los Angeles. We provide services such as American K12 school services, Sino-American exchange programs, entrepreneur successor developing programs, mini exchange programs, and summer camps. Our team consists of experienced education experts and consultants, dedicated to tailoring the most suitable education path for each student and helping them achieve their dreams on the global stage. In this era of diversity and globalization, Atlantic Pine Education Company is leading the new trend of Sino-American educational exchange, committed to making positive contributions to the educational development and cultural exchange between China and the United States. We believe that through our efforts, we can cultivate more future leaders with international vision and cultural understanding for both China and the United States."
+        {
+          "title": "Social Responsibility",
+          "description": "We are deeply aware of our responsibility in promoting Sino-American relations and are committed to using education to enhance the social responsibility of young people in both countries, making a contribution to building a more just and inclusive world."
+        },
+        {
+          "title": "Collaboration and Win-Win",
+          "description": "We value cooperation with institutions such as the Chinese Consulate General in the United States and promote the exchange and development of Sino-American education and culture through sharing resources, experience, and knowledge."
+        },
+        {
+          "title": "Integrity and Transparency",
+          "description": "We adhere to the principles of integrity and transparency, maintaining open communication in all partnerships to ensure that every decision and action is in the interests and expectations of both parties."
         }
+      ],
+      "intro": {
+        "title": "Company Introduction & History",
+        "description": "Atlantic Pine Education Company is a pioneer in promoting Sino-American education and cultural exchange, providing comprehensive international education services and experiences for Chinese students. We are a bridge connecting Eastern and Western educational concepts and resources, a cooperation platform for Sino-American educational institutions to explore and share education innovation, and a shortcut for Chinese and American students to pursue academic achievements and personal growth. We are also a channel for promoting Sino-American talent exchange and intellectual complementarity. The company was founded in the United States and is located at the forefront of education and cultural exchange. Atlantic Pine Education Company is an institution with a profound influence in the field of Sino-American education. Our headquarters are located in the United States, and we have branch offices in major Chinese cities such as Beijing, Shanghai, and Guangzhou, as well as offices in important educational centers in the United States such as New York and Los Angeles. We provide services such as American K12 school services, Sino-American exchange programs, entrepreneur successor developing programs, mini exchange programs, and summer camps. Our team consists of experienced education experts and consultants, dedicated to tailoring the most suitable education path for each student and helping them achieve their dreams on the global stage. In this era of diversity and globalization, Atlantic Pine Education Company is leading the new trend of Sino-American educational exchange, committed to making positive contributions to the educational development and cultural exchange between China and the United States. We believe that through our efforts, we can cultivate more future leaders with international vision and cultural understanding for both China and the United States."
+      }
     },
-    "k12" : {
-        "title": "Achieving Educational Dreams, Embarking on the American K12 Learning Journey",
-        "description": "At Atlantic Pine Education Company, we do more than just help Chinese students enter top US K12 schools; we are dedicated to nurturing them into future leaders with global perspectives and cultural sensitivity throughout this process. Our professional team, leveraging extensive industry experience and in-depth educational research, tailors optimal educational plans for each student, ensuring they find their best fit within the American education system and maximize their personal potential.",
-        "services": [
-            {"title": "Personalized School Matching", "features": [
-                "Detailed analysis of students' academic performance, interests, personality traits, and family background.",
-                "Provides school matching recommendations based on data and experience, including public, private, and boarding schools."
-            ]},
-            {"title": "Comprehensive Application Support", "features": [
-                "Assistance with preparing application materials, including transcripts, letters of recommendation, and personal statements.",
-                "Professional essay editing and interview coaching."
-            ]},
-            {"title": "Integrated Adaptation Guidance", "features": [
-                "Personalized adaptation strategies based on students' language abilities and cultural backgrounds.",
-                "Organization of cultural exchange activities to help students better integrate into American school life."
-            ]},
-            {"title": "Ongoing Follow-up and Feedback", "features": [
-                "Regular communication with parents to provide feedback on students' academic and living conditions at school.",
-                "Answers to parents and students' questions and concerns during the study process."
-            ]}
-        ],
-        "additionalInfoTitle": "Parents' Guide Detailed Information: ",
-        "additionalInfoContent": "Provides comprehensive guidance for parents, including key information on student safety, health management, and emergency response."
+    "k12": {
+      "title": "Achieving Educational Dreams, Embarking on the American K12 Learning Journey",
+      "description": "At Atlantic Pine Education Company, we do more than just help Chinese students enter top US K12 schools; we are dedicated to nurturing them into future leaders with global perspectives and cultural sensitivity throughout this process. Our professional team, leveraging extensive industry experience and in-depth educational research, tailors optimal educational plans for each student, ensuring they find their best fit within the American education system and maximize their personal potential.",
+      "splashPageBackgroundColorClassName": "gradient-block1",
+      "servicesTitle": "Our Professional Services and Features",
+      "services": [
+        {
+          "title": "Personalized School Matching",
+          "backgroundColorClassName": "bg-purple-60",
+          "features": [
+            "Detailed analysis of students' academic performance, interests, personality traits, and family background.",
+            "Provides school matching recommendations based on data and experience, including public, private, and boarding schools."
+          ]
+        },
+        {
+          "title": "Comprehensive Application Support",
+          "backgroundColorClassName": "bg-purple-70",
+          "features": [
+            "Assistance with preparing application materials, including transcripts, letters of recommendation, and personal statements.",
+            "Professional essay editing and interview coaching."
+          ]
+        },
+        {
+          "title": "Integrated Adaptation Guidance",
+          "backgroundColorClassName": "bg-purple-80",
+          "features": [
+            "Personalized adaptation strategies based on students' language abilities and cultural backgrounds.",
+            "Organization of cultural exchange activities to help students better integrate into American school life."
+          ]
+        },
+        {
+          "title": "Ongoing Follow-up and Feedback",
+          "backgroundColorClassName": "bg-purple-90",
+          "features": [
+            "Regular communication with parents to provide feedback on students' academic and living conditions at school.",
+            "Answers to parents and students' questions and concerns during the study process."
+          ]
+        }
+      ],
+      "additionalInfoTitle": "Parents' Guide Detailed Information: ",
+      "additionalInfoContent": "Provides comprehensive guidance for parents, including key information on student safety, health management, and emergency response."
     }
-}
+  }
+  
